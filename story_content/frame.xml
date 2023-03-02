@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111100111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
+  <layouts>
+    <layout name="npnxnanbsnfns11111100111" font="Lato" controllayout="npnxnanbsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="pxabnsnfns11111100111" font="Lato" controllayout="pxabnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="npxnabnsnfns11111100111" font="Lato" controllayout="npxnabnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="npnxnanbnsnfns11111100111" font="Lato" controllayout="npnxnanbnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="pxabnsnfns11111100110" font="Lato" controllayout="pxabnsnfns11111100110" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="CCSM - Topic 12" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" />
+              <option name="html5_logo_url" value="mobile/6mNUnP6tSjG.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="true" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="true" />
+          <option name="playbackSpeedControl" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111100110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns11111100111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x214400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428E00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373737" alpha="77" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x919191" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="30" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns11111100111">
+      <string id="acc_active">active</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="acc_definition">definition</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="acc_finish">finish</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_next">next</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="acc_playback_speed">playback speed</string>
+      <string id="acc_previous">previous</string>
+      <string id="acc_replay">replay</string>
+      <string id="acc_resources">resources</string>
+      <string id="acc_search_input">search</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="acc_visited">visited</string>
+      <string id="acc_volume">volume</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="action">Action</string>
+      <string id="alt_key">Alt</string>
+      <string id="bio">Bio</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="closed_captions">Captions</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="definition">Definition</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="glossary">Glossary</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="more_info">More info</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="outline">Menu</string>
+      <string id="pause_tip">Pause</string>
+      <string id="play_tip">Play</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="prev">PREV</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="replay_tip">Replay</string>
+      <string id="resources">Resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="search_toggle">Search</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn more...</string>
+      <string id="streaming_video_local_playback_republish">To preview this video, use the Preview functionality in Storyline, republish your course using standard MP4 video, or publish to Review 360.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submit">SUBMIT</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="submit_tip">Submit</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="terms">Terms</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="three_image_visited">visited</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="transcript">Notes</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Calibri">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6ViRUaWqcpI" displaytext="CCSM - Topic 12" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ViRUaWqcpI.6EAnnikFLlN" displaytext="Course Dashboard" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.5qSdlnUiiHi" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.68apSw4rTGE" displaytext="What Will You Learn?" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.6L4StOXeYHG" displaytext="Learning Outcomes" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.6K5NLVOMFrV" displaytext="What is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.5kWztfJWilM" displaytext="Sensors - 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.6kmD4hLxYPw" displaytext="Sensors - 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.6S7ywzY3vpH" displaytext="Transducers &amp;amp; MEMS" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.5ja97sGNhNJ" displaytext="Others" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.6SONA3PEe6C" displaytext="Life Before WSN" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.6iamdpZisqK" displaytext="Sensors as Nodes - 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.6OIn9mBZQgT" displaytext="Sensors as Nodes - 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.6kmOLHQiqlX" displaytext="WSN Topology" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.5bqNHUvlG4e" displaytext="Self-Organisation &amp;amp; Location" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.6NptepOlOd9" displaytext="Handling Outputs" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.60xWRYJ5tKC" displaytext="Applications: Telemetry - 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.6X5xmCxMMO9" displaytext="Applications: Telemetry - 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.5zZxy0eOQ1Q" displaytext="Desirable Features" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.6H8SqashneK" displaytext="Standards &amp;amp; Protocols" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.5la9xF7JySB" displaytext="WSN vs. WLAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6ViRUaWqcpI.64NuLMn0mKl" displaytext="Subtopic Menu" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Kaxz8jQbED" displaytext="M2M Technologies" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Kaxz8jQbED.6ptTS9czJ0S" displaytext="M2M" expand="false" type="slide" />
+            <slidelink slideid="_player.6Kaxz8jQbED.5rV2D9TItXr" displaytext="M2M Technologies" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5dRK5xdf7MO" displaytext="The Internet of Things Concept" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5dRK5xdf7MO.6WRCFUldRv9" displaytext="The Internet of Things (IoT)" expand="false" type="slide" />
+            <slidelink slideid="_player.5dRK5xdf7MO.5i7nGA4RQPZ" displaytext="The Internet of Things Concept" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6gIw4xU9NCm" displaytext="Smart Dust &amp;amp; Sensor Webs Projects" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6gIw4xU9NCm.5fViJx5SAmN" displaytext="Smart Dust Project" expand="false" type="slide" />
+            <slidelink slideid="_player.6gIw4xU9NCm.6Z9E4KvFlAU" displaytext="Smart Dust &amp;amp; Sensor Webs Projects" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6DPuNBLPqyq" displaytext="Smart Metering &amp;amp; Smart Grid Concepts" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6DPuNBLPqyq.68se1NufThY" displaytext="Smart Metering" expand="false" type="slide" />
+            <slidelink slideid="_player.6DPuNBLPqyq.5kU2Ft8RLrY" displaytext="Smart Metering &amp;amp; Smart Grid Concepts" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6kluxzX0VEa" displaytext="Smart Home, Home Automation &amp;amp; Intelligent Building Concepts" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6kluxzX0VEa.6n8n3Luopu4" displaytext="Smart Home &amp;amp; Home Automation" expand="false" type="slide" />
+            <slidelink slideid="_player.6kluxzX0VEa.5Zh9FyGfxT6" displaytext="Smart Home, Home Automation &amp;amp; Intelligent Building Concepts" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6nkIgzRJHU0" displaytext="Ubiquitous, Pervasive &amp;amp; Ambient Computing" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6nkIgzRJHU0.6o3U0jlLXvv" displaytext="Ubiquitous, Pervasive &amp;amp; Ambient Computing" expand="false" type="slide" />
+            <slidelink slideid="_player.6nkIgzRJHU0.5ZL8K3rtrz6" displaytext="Cyber Physical Systems (CPS), IoT, and IIoT - 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6nkIgzRJHU0.5Z2iq6XcwJF" displaytext="Cyber Physical Systems (CPS), IOT, and IIOT - 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6nkIgzRJHU0.69tJsnDRbw6" displaytext="Ubiquitous, Pervasive &amp;amp; Ambient Computing" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6CSeXOm2vsO" displaytext="Mobile Ad-Hoc Networks (MANET)" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6CSeXOm2vsO.5vEX0K86Sgm" displaytext="Mobile Ad-hoc Networks" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSeXOm2vsO.6S7r0Sm1ClJ" displaytext="Mobile Ad-hoc Networks (Manet)" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSeXOm2vsO.6qXj2fSrfjX" displaytext="End" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6ViRUaWqcpI.6EAnnikFLlN" slidebank="false" type="slide">  help to complete this lesson: review the lesson content complete the tutorial tasks attend the live chat post in the discussion forum     contact your module leader is chitra balakrishna: chitra.balakrishna@nccedu.com     additional resources   see business computing and information systems main page see business computing and information systems main page see business computing and information systems main page see business computing and information systems main page corporate communication systems management   topic 12  completion 0%  25%  50%  75%  100% 0% lesson: uclan@nccedu.com contact  on completion of this topic you should be able to : describe a set of real-world wsn implementations document the commercial suppliers of wsn infrastructure give an overview of the software used in wsn implementations explain how the epc and iot concepts inter-relate document the commercial suppliers of rfid infrastructure (and costs)  additional resources these are additional resources to help you out.       begin begin begin begin begin begin wireless sensor networks</slidetext>
+      <slidetext slideid="6ViRUaWqcpI.5qSdlnUiiHi" slidebank="false" type="slide">  topic 12 wireless sensor networks corporate communication systems management</slidetext>
+      <slidetext slideid="6ViRUaWqcpI.68apSw4rTGE" slidebank="false" type="slide">what will you learn? wireless sensor networks the defining characteristics of a wsn the defining characteristics of a wsn the typical applications of a wsn the typical applications of a wsn the role of rfid as a pre-cursor to wsn the role of rfid as a pre-cursor to wsn wsn standards and protocols wsn standards and protocols wsn-related technologies and concepts wsn-related technologies and concepts strengths &amp; weaknesses of a wsn strengths &amp; weaknesses of a wsn the architecture of a wsn and its components the architecture of a wsn and its components</slidetext>
+      <slidetext slideid="6ViRUaWqcpI.6L4StOXeYHG" slidebank="false" type="slide"> learning outcomes    describe a set of real-world wsn implementations describe a set of real-world wsn implementations 1 1   document the commercial suppliers of wsn infrastructure document the commercial suppliers of wsn infrastructure 2 2   give an overview of the software used in wsn implementations give an overview of the software used in wsn implementations 3 3   document the commercial suppliers of rfid infrastructure (and costs) document the commercial suppliers of rfid infrastructure (and costs) 5 5   explain how the epc and iot concepts inter-relate explain how the epc and iot concepts inter-relate 4 4</slidetext>
+      <slidetext slideid="6ViRUaWqcpI.6K5NLVOMFrV" slidebank="false" type="slide">cloud fundamental cloud themes virtualisation uses virtualisation  (physical =&gt; logical mapping) remoteness remoteness and complexity hidden from users…  resources shared resources are utilised to maximum degree  hardware highly scalable, using cheap commodity hardware  access real-time access via high bandwidth connections model large-scale, distributed  &amp; remote resources                           what is a wsn? power, range, frequency, protocols &amp; standards wireless issues size, cost, construction, lifespan, behaviour type sensor issues topology, scale/size,  location, application/function network issues  wireless sensor network network of sensors communicating wirelessly!         </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.5kWztfJWilM" slidebank="false" type="slide">wireless sensor network sensors - 1 definition of a sensor smart sensors    a device which detects or measures a physical property and records, indicates, or otherwise responds to it. are built as iot components that convert the real-world variable that they’re measuring into a digital data stream for transmission to a gateway. </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.6kmD4hLxYPw" slidebank="false" type="slide">transduction (measurement) computation communication control sensors             wireless sensor network sensors - 2 move intelligence closer to point of measurement integrate into a distributed sensor network </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.6S7ywzY3vpH" slidebank="false" type="slide">micro electro-mechanical systems piezo-resistive effect  (strain =&gt; electrical resistance) piezo-electric effect  (force/stress =&gt; voltage change) capacitive sensors   (force/stress =&gt; capacity change)   magnetic &amp; electro-magnetic sensors (no contact) transducers convert energy from one domain to another  physical property         =&gt; electrical signal (volt/current)   transducers transducers transducers mems mems mems sensors transducers and mems  </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.5ja97sGNhNJ" slidebank="false" type="slide">motes a tiny speck – the size of a dust particle the smallest granule of sensor size   others thermal sensors  (heat =&gt; electric signal) optical sensors  (light =&gt; electric signal)   acoustic sensors  (sound =&gt; electric signal) chemical sensors  (reactions =&gt; electric signal) others others  others motes motes  motes sensors others  </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.6SONA3PEe6C" slidebank="false" type="slide">   shipping containers and pallets passports, contactless card payments   animal and pet tracking uhf   hf   lf   rfid frequencies wireless sensor networks life before wsn pure identification chips*  to replace barcodes with an epc   more computation &amp; on-chip memory  wsn          wireless sensor networks life before wsn  an rfid chip allows (contactless) tracking of that object       tag = microchip (with unique id) + antenna   fixed/hand-held scanner/reader interrogates tag  passive rfid  no on-chip power supply     active rfid on-chip power supply  reader/scanner supplies energy via em waves      wireless sensor networks life before wsn  radio frequency (wireless) identification  (recording/transmitting)  wireless sensor networks         life before wsn           and in the beginning, there was rfid…</slidetext>
+      <slidetext slideid="6ViRUaWqcpI.6iamdpZisqK" slidebank="false" type="slide">microchip &amp; memory  transceiver /antenna wireless sensor networks sensors as nodes small, autonomous, low-power, wireless devices (as in network node) one or more sensors (one per physical property) a low-power source (battery/solar-power cell)  a mini, self-contained computer out on its own  </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.6OIn9mBZQgT" slidebank="false" type="slide">wireless sensor networks        – variable (mote = smallest) *less important for rfid  (no sticking/embedding)  –variable (see tutorial) depends on application/size of network/lifespan size  cost independent units but cooperate with other nodes   both impact technical parameters of node relay sensor data out of network to collection point often use multi-hop model via routing or flooding sensors as nodes - 2  </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.6kmOLHQiqlX" slidebank="false" type="slide">wsn topology wireless sensor networks  </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.5bqNHUvlG4e" slidebank="false" type="slide"> communications wake up, detect other sensors and communicate based on mobile phone industry – cells/base stations  self-organisation &amp; location wireless sensor networks  positioning  positioning relative to neighbouring sensors (network localisation)  absolute to physical target (environmental fixing)   self-organisation &amp; location wireless sensor networks  communications    positioning  communications  self-organisation &amp; location wireless sensor networks n x smart sensors = wsn wsn = ad-hoc, multi-hop, mesh topology</slidetext>
+      <slidetext slideid="6ViRUaWqcpI.6NptepOlOd9" slidebank="false" type="slide">handling outputs wireless sensor networks        signal processing sensor fusion  =&gt; kalman filter =&gt; dsp merging of n different sensor outputs logic &amp; decision-making  =&gt; intelligence       signal conditioning primary versus secondary properties  remove noise, distortion  =&gt; snr produce ‘clean’ electrical signal.     signal capturing a sensor captured a temperature and converted it into  electrical impulse/ signal          </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.60xWRYJ5tKC" slidebank="false" type="slide">wireless sensor networks applications: telemetry - 1   traffic flows, vehicle densities &amp; road usage animal migration &amp; population densities battlefield surveillance &amp; perimeter monitoring industrial, scientific &amp; security data: sensors often capture environmental data: temperature, humidity &amp; air quality air pressure, wind speeds, water purity vibration, volcanic &amp; seismic activity  </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.6X5xmCxMMO9" slidebank="false" type="slide">applications: telemetry - 2 wireless sensor networks to harvest ambient data from the environment shipped back and turned into information to monitor and control the environment provides inputs to smart environments volcanoes, deserts, glaciers, jungles etc. industrial extremes, battlefield/conflict zones wsn best for hostile &amp; remote environments wsn can be used in two ways:</slidetext>
+      <slidetext slideid="6ViRUaWqcpI.5zZxy0eOQ1Q" slidebank="false" type="slide">desirable features wireless sensor networks   ease/speed of installation reliable &amp; robust  cheap &amp; power efficient don’t hang around in hostile environments! remote &amp; hostile settings =&gt; little human contact self identification &amp; self organising talk to other sensors, pass data along  large in number, small in size =&gt; money &amp; energy!           </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.6H8SqashneK" slidebank="false" type="slide"> ieee 1451  ieee/nist standard for smart sensor networks transducer /network interface standard https://www.nist.gov/el/intelligent-systems-division-73500/ieee-1451 https://www.nist.gov/el/intelligent-systems-division-73500/ieee-1451 https://www.nist.gov/el/intelligent-systems-division-73500/ieee-1451 https://www.nist.gov/el/intelligent-systems-division-73500/ieee-1451 zigbee low-power, wireless sensor &amp; control networks builds m2m wsn and iot infrastructures/products https://zigbeealliance.org/ https://zigbeealliance.org/ https://zigbeealliance.org/ https://zigbeealliance.org/ wireless hart protocol  hart = highway addressable remote transducer smart device/field instrument control protocol https://fieldcommgroup.org/technologies/hart https://fieldcommgroup.org/technologies/hart https://fieldcommgroup.org/technologies/hart https://fieldcommgroup.org/technologies/hart hart hart hart     zigbee      zigbee      zigbee    ieee 1451    ieee 1451    ieee 1451    wsn standards &amp; protocols </slidetext>
+      <slidetext slideid="6ViRUaWqcpI.5la9xF7JySB" slidebank="false" type="slide">modest number of (higher power) expensive hosts require more maintenance &amp; human interaction transmit lots of data, have much higher data rates wlan = ieee 802.11 = wi-fi wsn vs. wlan wireless sensor networks wsn large number of (low power) cheap nodes nodes = low maintenance, little human contact nodes send small amounts of data, low data rates wsn wsn vs. wlan wireless sensor networks wlan   wsn wlan wsn vs. wlan wireless sensor networks</slidetext>
+      <slidetext slideid="6ViRUaWqcpI.64NuLMn0mKl" slidebank="false" type="slide">wireless sensor networks check out each subtopic: m2m technologies  m2m technologies   m2m technologies  the internet of things concept  the internet of things concept   the internet of things concept  smart dust &amp; sensor webs projects smart dust &amp; sensor webs projects  smart dust &amp; sensor webs projects smart metering &amp; smart grid concepts smart metering &amp; smart grid concepts  smart metering &amp; smart grid concepts smart home, home automation &amp; intelligent building concepts  smart home, home automation &amp; intelligent building concepts   smart home, home automation &amp; intelligent building concepts  ubiquitous, pervasive &amp; ambient computing ubiquitous, pervasive &amp; ambient computing  ubiquitous, pervasive &amp; ambient computing mobile ad-hoc networks (manet)  mobile ad-hoc networks (manet)   mobile ad-hoc networks (manet)  click next &gt; or on a subtopic to begin  </slidetext>
+      <slidetext slideid="6Kaxz8jQbED.6ptTS9czJ0S" slidebank="false" type="slide">   remote device – sensor, meter or appliance m2m m2m wireless sensor networks captures a reading/measurement/event  transmitted through network (wired or wireless) to another computer running an application can send control data back to remote device  remote control of appliances = home automation     </slidetext>
+      <slidetext slideid="6Kaxz8jQbED.5rV2D9TItXr" slidebank="false" type="slide">topic 12 you are now at… click next &gt; or on a subtopic to begin   m2m technologies  m2m technologies  the internet of things concept  the internet of things concept  smart dust &amp; sensor webs projects smart dust &amp; sensor webs projects smart metering &amp; smart grid concepts smart metering &amp; smart grid concepts smart home, home automation &amp; intelligent building concepts  smart home, home automation &amp; intelligent building concepts  ubiquitous, pervasive &amp; ambient computing ubiquitous, pervasive &amp; ambient computing mobile ad-hoc networks (manet)  mobile ad-hoc networks (manet) </slidetext>
+      <slidetext slideid="5dRK5xdf7MO.6WRCFUldRv9" slidebank="false" type="slide">iot wireless sensor networks   physical objects (and humans?) =  ‘things’  compare to non-physical data/information  make ‘things’ uniquely identifiable on internet  relies on rfid to capture data about ‘things’ internet of things            need huge address space =&gt; ipv6 see auto-id labs &amp; electronic product code </slidetext>
+      <slidetext slideid="5dRK5xdf7MO.5i7nGA4RQPZ" slidebank="false" type="slide">topic 12 you are now at… click next &gt; or on a subtopic to begin   m2m technologies  m2m technologies  the internet of things concept  the internet of things concept  smart dust &amp; sensor webs projects smart dust &amp; sensor webs projects smart metering &amp; smart grid concepts smart metering &amp; smart grid concepts smart home, home automation &amp; intelligent building concepts  smart home, home automation &amp; intelligent building concepts  ubiquitous, pervasive &amp; ambient computing ubiquitous, pervasive &amp; ambient computing mobile ad-hoc networks (manet)  mobile ad-hoc networks (manet) </slidetext>
+      <slidetext slideid="6gIw4xU9NCm.5fViJx5SAmN" slidebank="false" type="slide">wireless sensor networks smart dust project  smart dust project an attempt to fabricate mm3 mote sensor  nasa sensor webs project a global surveillance network    </slidetext>
+      <slidetext slideid="6gIw4xU9NCm.6Z9E4KvFlAU" slidebank="false" type="slide">topic 12 you are now at… click next &gt; or on a subtopic to begin   m2m technologies  m2m technologies  the internet of things concept  the internet of things concept  smart dust &amp; sensor webs projects smart dust &amp; sensor webs projects smart metering &amp; smart grid concepts smart metering &amp; smart grid concepts smart home, home automation &amp; intelligent building concepts  smart home, home automation &amp; intelligent building concepts  ubiquitous, pervasive &amp; ambient computing ubiquitous, pervasive &amp; ambient computing mobile ad-hoc networks (manet)  mobile ad-hoc networks (manet) </slidetext>
+      <slidetext slideid="6DPuNBLPqyq.68se1NufThY" slidebank="false" type="slide">smart metering wireless sensor networks  see the smart energy &amp; open smart grid protocol  intelligent sensing/monitoring/control of utilities also called smart grids uses an ami (advanced metering infrastructure) links smart utility reader =&gt; remote control centre site-specific, time-specific, real-time data streams</slidetext>
+      <slidetext slideid="6DPuNBLPqyq.5kU2Ft8RLrY" slidebank="false" type="slide">topic 12 you are now at… click next &gt; or on a subtopic to begin   m2m technologies  m2m technologies  the internet of things concept  the internet of things concept  smart dust &amp; sensor webs projects smart dust &amp; sensor webs projects smart metering &amp; smart grid concepts smart metering &amp; smart grid concepts smart home, home automation &amp; intelligent building concepts  smart home, home automation &amp; intelligent building concepts  ubiquitous, pervasive &amp; ambient computing ubiquitous, pervasive &amp; ambient computing mobile ad-hoc networks (manet)  mobile ad-hoc networks (manet) </slidetext>
+      <slidetext slideid="6kluxzX0VEa.6n8n3Luopu4" slidebank="false" type="slide">smart home &amp; home automation wireless sensor networks  ‘intelligent building’ concept the centralised and/or remote sensing/control of: entertainment systems heating, lighting, ventilation and ac systems security &amp; health monitoring systems put your fridge on the web! z-wave zigbee </slidetext>
+      <slidetext slideid="6kluxzX0VEa.5Zh9FyGfxT6" slidebank="false" type="slide">topic 12 you are now at… click next &gt; or on a subtopic to begin   m2m technologies  m2m technologies  the internet of things concept  the internet of things concept  smart dust &amp; sensor webs projects smart dust &amp; sensor webs projects smart metering &amp; smart grid concepts smart metering &amp; smart grid concepts smart home, home automation &amp; intelligent building concepts  smart home, home automation &amp; intelligent building concepts  ubiquitous, pervasive &amp; ambient computing ubiquitous, pervasive &amp; ambient computing mobile ad-hoc networks (manet)  mobile ad-hoc networks (manet) </slidetext>
+      <slidetext slideid="6nkIgzRJHU0.6o3U0jlLXvv" slidebank="false" type="slide">ubiquitous, pervasive &amp; ambient computing wireless sensor networks   distributed &amp; integrated information processing push intelligence out/down to everyday devices ambient intelligence, ubicomp or ‘everyware’ pushes computing power into ‘things’ (iot) different scales: motes/mems (smart dust) =&gt; macro-sized items different interfaces: non-traditional  =&gt; tactile, voice, motion etc</slidetext>
+      <slidetext slideid="6nkIgzRJHU0.5ZL8K3rtrz6" slidebank="false" type="slide"> industrial iot use of iot in industrial sectors and applications examples enables higher efficiency and reliability in operations robotics, medical devices, software-defined production processes cyber physical systems (cps), iot, and iiot wireless sensor networks    iiot   internet of things the ability of everyday objects (rather than computers and smartphones) to connect to the internet.  kettles, fridges and televisions  examples (ncsc, uk)  iot  cyber physical systems (cps), iot, and iiot wireless sensor networks   connect,  compute, communicate iot cps           vs.          iot? cyber physical systems (cps), iot, and iiot wireless sensor networks compute,  communicate,  control  cps    cyber-physical systems computation, communication and control components tightly combined with physical processes of industry domains (mechanical, electrical, and chemical) cyber physical systems (cps), iot, and iiot wireless sensor networks  cps         cyber physical systems (cps), iot, and iiot - 1 wireless sensor networks  cps iot iiot</slidetext>
+      <slidetext slideid="6nkIgzRJHU0.5Z2iq6XcwJF" slidebank="false" type="slide">ot vs. it  wireless sensor networks ot devices control the physical world ot it systems  manage data  it ot 		vs.        it?      safety-critical system  systems whose failure could result in loss of life, significant property damage, or damage to the environment  human safety is dependent upon the correct operation of system designed with the intent of curbing the effects of an accident from a hazardous event safety–critical system wireless sensor networks  operational technology  computing and communication systems to manage, monitor and control industrial operations focusing on the physical devices and processes they use     ot  ics  dcs  scada  operational technology wireless sensor networks ot ot ot ot vs. it ot vs. it ot vs. it scs scs scs    cyber physical systems (cps), iot, and iiot - 2 wireless sensor networks   scada ics ot dcs</slidetext>
+      <slidetext slideid="6nkIgzRJHU0.69tJsnDRbw6" slidebank="false" type="slide">topic 12 you are now at… click next &gt; or on a subtopic to begin   m2m technologies  m2m technologies  the internet of things concept  the internet of things concept  smart dust &amp; sensor webs projects smart dust &amp; sensor webs projects smart metering &amp; smart grid concepts smart metering &amp; smart grid concepts smart home, home automation &amp; intelligent building concepts  smart home, home automation &amp; intelligent building concepts  ubiquitous, pervasive &amp; ambient computing ubiquitous, pervasive &amp; ambient computing mobile ad-hoc networks (manet)  mobile ad-hoc networks (manet) </slidetext>
+      <slidetext slideid="6CSeXOm2vsO.5vEX0K86Sgm" slidebank="false" type="slide">example military,  emergency services, disaster relief  no centralised/organised connectivity  distributed intelligence across all nodes each node discovers neighbours/topology each node incorporates (dynamic) routing   no fixed infrastructure or defined topology   set of mobile, independent users (nodes) self-configuring, communicate wirelessly  mobile ad-hoc networks (manet) wireless sensor networks no fixed infrastructure or defined topology  no centralised/organised connectivity example </slidetext>
+      <slidetext slideid="6CSeXOm2vsO.6S7r0Sm1ClJ" slidebank="false" type="slide">topic 12 you are now at… click next &gt; or on a subtopic to begin   m2m technologies  m2m technologies  the internet of things concept  the internet of things concept  smart dust &amp; sensor webs projects smart dust &amp; sensor webs projects smart metering &amp; smart grid concepts smart metering &amp; smart grid concepts smart home, home automation &amp; intelligent building concepts  smart home, home automation &amp; intelligent building concepts  ubiquitous, pervasive &amp; ambient computing ubiquitous, pervasive &amp; ambient computing mobile ad-hoc networks (manet)  mobile ad-hoc networks (manet) </slidetext>
+      <slidetext slideid="6CSeXOm2vsO.6qXj2fSrfjX" slidebank="false" type="slide">  topic 12 wireless sensor networks corporate communication systems management</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#464646'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://fieldcommgroup.org/technologies/hart" image="story_content/url.png" title="HART" />
+      <resource url="https://zigbeealliance.org/" image="story_content/url.png" title="Zigbee" />
+      <resource url="https://www.nist.gov/el/intelligent-systems-division-73500/ieee-1451" image="story_content/url.png" title="IEEE 1451" />
+      <resource url="http://www.m2m.com" image="story_content/url.png" title="M2M" />
+      <resource url="http://www.autoidlabs.org.uk/" image="story_content/url.png" title="Auto-ID Labs" />
+      <resource url="http://www.gs1.org/epcglobal" image="story_content/url.png" title="Electronic Product Code" />
+      <resource url="https://www.forbes.com/sites/bernardmarr/2018/09/16/smart-dust-is-coming-are-you-ready/" image="story_content/url.png" title="Smart Dust Project" />
+      <resource url="https://ai.jpl.nasa.gov/public/projects/sensorweb/" image="story_content/url.png" title="NASA Sensor Webs Project" />
+      <resource url="https://zigbeealliance.org/solution/smart-energy/" image="story_content/url.png" title="Zigbee-Smart energy" />
+      <resource url="https://osgp.org/en" image="story_content/url.png" title="OSGP" />
+      <resource url="http://www.z-wave.com " image="story_content/url.png" title="Z-wave" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6ViRUaWqcpI.5qSdlnUiiHi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" Image Title: &amp;#x9;&amp;#x9;The Model&amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="By: &amp;#x9;&amp;#x9;               &amp;#x9;Thomas Leuthard  https://www.flickr.com/photos/thomasleuthard/&amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Source: &amp;#x9;&amp;#x9;&amp;#x9;https://flic.kr/p/8XQ6Yh&amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Licensed under CC by 2.0 &amp;#x9;"&gt;
+        &lt;Style FontFamily="Calibri" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="https://creativecommons.org/licenses/by-nd/2.0/"&gt;
+        &lt;Style FontFamily="Calibri" FontIsBold="False" FontIsItalic="False" FontIsUnderline="True" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6ViRUaWqcpI.6L4StOXeYHG" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="By the end of the topic, You will be able to Identify and explain each stage of the P.D.I.O.O. network design methodology, Understand and explain the key features of a service level agreement (SLA), Compare the P.D.I.O.O. methodology with alternative network design methodologies, Compare and contrast the economics of different networking technologies, and Explain the key features of various networking routers, switches, hubs, etc."&gt;
+        &lt;Style FontFamily="Calibri" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt2,08" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt2,08" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CSeXOm2vsO.6qXj2fSrfjX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" Image Title: &amp;#x9;&amp;#x9;The Model&amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="By: &amp;#x9;&amp;#x9;               &amp;#x9;Thomas Leuthard  https://www.flickr.com/photos/thomasleuthard/&amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Source: &amp;#x9;&amp;#x9;&amp;#x9;https://flic.kr/p/8XQ6Yh&amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Licensed under CC by 2.0 &amp;#x9;"&gt;
+        &lt;Style FontFamily="Calibri" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="https://creativecommons.org/licenses/by-nd/2.0/"&gt;
+        &lt;Style FontFamily="Calibri" FontIsBold="False" FontIsItalic="False" FontIsUnderline="True" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>

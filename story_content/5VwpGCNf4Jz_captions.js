@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%203.68.28887.0%0D%0A%0D%0A00:00:00.150%20--%3E%2000:00:03.840%0D%0AO.T.%20systems%20are%20primarily%20used%20to%20interact%20with%20the%20physical%20world.%0D%0A%0D%0A"}')
